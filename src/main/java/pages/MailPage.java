@@ -13,7 +13,7 @@ public class MailPage {
     private static SelenideElement mailTextAreaInput = $(By.xpath("//div[@class = 'Am aiL Al editable LW-avf tS-tW']"));
     private static SelenideElement sendButton = $(By.xpath("//div[@class = 'T-I J-J5-Ji aoO v7 T-I-atl L3']"));
 
-    private static final String FROM_SEND_MAIL_ADDRESS = "buffo404@gmail.com";
+    private static final String FROM_SEND_MAIL_ADDRESS = "dokuchaev_av@tkbbank.ru";
     private static final String LOGIN = "bmo785168@gmail.com";
     private static final String PASSWORD = "q2a3fer78po93";
     private static final String TEXT_FOR_SEND = "Добрый день\nБакулин Александр Дмитриевич\nАвтотест готов\nТакже прикрепляю ссылку на Git: https://github.com/bmo404jk/TransCapitalBankTest";
