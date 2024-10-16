@@ -8,6 +8,7 @@ public class BaseSelenideConfiguration {
         Configuration.browser = browser;
         Configuration.baseUrl = baseUrl;
         Configuration.timeout = 10000;
+        Configuration.browserSize = "1920x1080";
     }
     public static void openPage(String subUrl) {
         Selenide.open (subUrl);
